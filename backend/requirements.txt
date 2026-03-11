@@ -1,0 +1,37 @@
+# Voice Clone Agent — Backend Python dependencies
+#
+# Install:
+#   python -m venv .venv
+#   source .venv/bin/activate   # or .venv\Scripts\activate on Windows
+#   pip install -r requirements.txt
+#
+# GPU support: replace torch with the CUDA wheel that matches your driver.
+# See https://pytorch.org/get-started/locally/
+
+# ── Web framework ─────────────────────────────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9   # required for Form / UploadFile
+
+# ── Database ──────────────────────────────────────────────────────────────
+sqlalchemy>=2.0.28
+alembic>=1.13.1
+
+# ── Audio processing ──────────────────────────────────────────────────────
+numpy>=1.26.4
+scipy>=1.12.0
+librosa>=0.10.1
+soundfile>=0.12.1
+pydub>=0.25.1
+
+# ── Audio recording (microphone) ─────────────────────────────────────────
+sounddevice>=0.4.6
+
+# ── Machine learning / TTS ───────────────────────────────────────────────
+# PyTorch: CPU-only wheel (override in your environment for GPU)
+torch>=2.2.0
+torchaudio>=2.2.0
+TTS>=0.22.0          # Coqui TTS (includes XTTS v2)
+
+# ── Utilities ────────────────────────────────────────────────────────────
+python-dotenv>=1.0.1
