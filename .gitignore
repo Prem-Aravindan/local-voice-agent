@@ -1,0 +1,26 @@
+# Runtime data — never commit audio, models, or database
+data/
+database/
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/settings.json
+.idea/
