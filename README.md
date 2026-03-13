@@ -4,12 +4,12 @@ A **modern, local-first voice cloning application** built with FastAPI + Next.js
 
 ## Features
 
-- 🎤 **Guided voice recording** — 5-section protocol covering warmup, storybook, numbers, assistant-style, and expressive speech
-- 🧠 **Speaker embedding** — Powered by [Coqui XTTS v2](https://github.com/coqui-ai/TTS)
-- 🔊 **Text-to-speech** — Synthesise speech using your cloned voice
-- 🗂️ **Voice profiles** — Create, manage, and delete named voice profiles
-- 💾 **Local-first** — SQLite database, all audio stored on your filesystem
-- 🐳 **Docker ready** — One command to start everything
+- **Guided voice recording** — 5-section protocol covering warmup, storybook, numbers, assistant-style, and expressive speech
+- **Speaker embedding** — Powered by [Coqui XTTS v2](https://github.com/coqui-ai/TTS)
+- **Text-to-speech** — Synthesise speech using your cloned voice
+- **Voice profiles** — Create, manage, and delete named voice profiles
+- **Local-first** — SQLite database, all audio stored on your filesystem
+- **Docker ready** — One command to start everything
 
 ---
 
